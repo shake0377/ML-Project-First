@@ -1,0 +1,76 @@
+1. Initialize the project
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv init
+
+2. Create a virtual environment and activate it.
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv venv
+Using CPython 3.13.5 interpreter at: C:\Users\Admin\anaconda3\python.exe
+Creating virtual environment at: .venv
+Activate with: .venv\Scripts\activate
+
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>.venv\Scripts\activate
+
+(Langchainupdated) C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>
+
+3. Install all libraries. Create requirements.txt outside of .venv folder
+(Langchainupdated) C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv add -r requirements.txt
+
+4. API Keys
+Google: AIzaSyApMaiZBpvyH7fflRtdBfC3SP0KydI48Og
+
+5. Git Code: Krish
+https://github.com/krishnaik06/Langchain-V1-Crash-Course/blob/main/updatedlangchain/6-middleware.ipynb
+
+==============================================================================================
+1. Open VS Code
+C:\Shekhar\Learnings\MLProjectFirst>code .
+
+2. Create Environment. VS Code -> Terminal - Command Prompt
+C:\Shekhar\Learnings\MLProjectFirst>conda create -p venv python==3.8 -y
+
+3. Activate environment (venv)
+C:\Shekhar\Learnings\MLProjectFirst>conda activate venv/
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>
+
+4. Initialize git
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git init
+Initialized empty Git repository in C:/Shekhar/Learnings/MLProjectFirst/.git/
+
+5. Add README.md in git repository
+- Create the file
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git add README.md
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git commit -m "1st Commit"
+[master (root-commit) afd71f3] 1st Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes.txt
+        venv/
+
+
+6. check global setup before push..
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git config --global user.name
+Shekhar Das
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git config --global user.mailid
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git config --global user.email 
+shake0377@gmail.com
+
+7. Link up origin (local: staging) with remote and push README.md
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git branch -M main
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git remote add origin https://github.com/shake0377/ML-Project-First.git
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git push -u origin main
+
+
+
+
+
