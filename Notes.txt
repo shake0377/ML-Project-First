@@ -70,7 +70,41 @@ shake0377@gmail.com
 
 (C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git push -u origin main
 
+8.
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>pip install -r requirements.txt
 
+9. See that the mlproject.egg-info is created.
 
+10. Add all the files in git repository
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git add .
 
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Notes.txt
+        new file:   requirements.txt
+        new file:   setup.py
+        new file:   src/__init__.py
+
+11. Push all files
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git commit -m "Commit all the files"
+[main b406d05] Commit all the files
+ 4 files changed, 110 insertions(+)
+ create mode 100644 Notes.txt
+ create mode 100644 requirements.txt
+ create mode 100644 setup.py
+ create mode 100644 src/__init__.py
+
+(C:\Shekhar\Learnings\MLProjectFirst\venv) C:\Shekhar\Learnings\MLProjectFirst>git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 1.74 KiB | 1.74 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shake0377/ML-Project-First.git
+   80f3da9..b406d05  main -> main
+branch 'main' set up to track 'origin/main'.
